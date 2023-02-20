@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getPetDetails } from '../../api/petfinder';
 import Hero from '../../components/hero';
 import { useParams, Redirect } from 'react-router-dom';
-import PetDetailsNotFound from '../petDetailsNotFound';
+// import PetDetailsNotFound from '../petDetailsNotFound';
 
 const PetDetailsPage = () => {
   const [data, setData] = useState();
